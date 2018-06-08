@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "testy"
-version = "0.2-51"
+version = "0.2-52"
 -- LuaDist source
 source = {
-  tag = "0.2-51",
+  tag = "0.2-52",
   url = "git://github.com/LuaDist-testing/testy.git"
 }
 -- Original source
@@ -23,14 +23,14 @@ description = {
   license = "MIT"
 }
 dependencies = {
-  "lua ~> 5.1"
+  "lua ~> 5.2"
 }
 build = {
   type = "none",
   install = {
     bin = {
       ["testy.lua"] = "src/testy.lua",
-      ["testy-5.1"] = "src/testy.lua",
+      ["testy-5.2"] = "src/testy.lua",
     }
   }
 }
