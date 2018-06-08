@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "testy"
-version = "0.1-1"
+version = "0.2-1"
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/testy.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/siffiejoe/lua-testy/archive/v0.1.zip",
---   dir = "lua-testy-0.1"
+--   url = "https://github.com/siffiejoe/lua-testy/archive/v0.2.zip",
+--   dir = "lua-testy-0.2"
 -- }
 description = {
   summary = "Easy unit testing for Lua modules.",
